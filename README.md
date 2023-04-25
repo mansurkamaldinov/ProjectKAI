@@ -1,2 +1,0 @@
-# ProjectKAI
-Projectkai
