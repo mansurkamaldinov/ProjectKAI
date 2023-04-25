@@ -1,0 +1,18 @@
+{% extends 'open/crete.html' %}
+
+{% block content %}
+
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+
+    <button type="submit">Submit</button>
+</form>
+
+
+
+
+
+
+
+{% endblock %}

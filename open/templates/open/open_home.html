@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+{% block tittle %}Open{% endblock %}
+{% block content %}
+<div class="features">
+    <h1>open</h1>
+    {% if open %}
+        {% for el in open %}
+            <div class = "alert alert-warning">
+                <h3>{{ el.title }}</h3>
+
+        {% endfor %}
+    {% endif %}
+</div>
+
+
+{% endblock %}
